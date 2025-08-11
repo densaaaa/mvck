@@ -13,8 +13,8 @@
         </tr>
         <!-- <?php foreach ($data as $mhs): ?>       Looping untuk menampilkan data mahasiswa -->
         <tr>
-            <!-- <td><?= $mhs['nim'] ?></td>     // Menampilkan NIM mahasiswa -->
             <td><?= $mhs['nama'] ?></td>
+            <td><?= $mhs['nim'] ?></td>
             <td><?= $mhs['jurusan'] ?></td>
         </tr>
         <!-- <?php endforeach; ?>        // Akhir dari looping -->
